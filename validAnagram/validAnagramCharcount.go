@@ -1,7 +1,9 @@
 //Character Count Method: Best for scenarios where you can restrict to a known character set (e.g., lowercase letters).
 //Time Complexity: O(n)
 //Space Complexity: O(1) (fixed size for 26 lowercase letters)
-
+//The expression char - 'a' converts the character to its corresponding index in the array. For example:
+//If char is 'a', char - 'a' equals 0 (index for 'a').
+//If char is 'b', char - 'a' equals 1 (index for 'b'). We increment the count at the corresponding index in the counts array for each character.
 
 package main
 
